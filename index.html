@@ -16,7 +16,13 @@
   <input type="submit" value="Send">
  </form>
  -->
-
+ 
+<div class="tab">
+    <button class="tablinks" onclick="clickHandle(event, 'About Me')">About Me</button>
+    <button class="tablinks" onclick="clickHandle(event, 'Miscellaneous')">miscellaneous</button>
+  </div>
+ 
+<div id="About Me" class="tabcontent">
  <h1 style="color:#008080" align="center">Sabyasachi Mukherjee</h1>
  
 <center><img src="picture.jpg" alt="centered image" width="400"/></center>
@@ -26,12 +32,10 @@
 I am interested in analytic number theory where I am advised by <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=42375"> Professor Jörg Brüdern.</a> My master's thesis primarily uses the 
 <a href="https://terrytao.wordpress.com/2015/03/30/254a-notes-8-the-hardy-littlewood-circle-method-and-vinogradovs-theorem/"> Hardy-Littlewood Circle Method.</a>
    </p>
-  
-  
+</div>
  
-
- 
-<p align="center"> 
+<div id="Miscellaneous" class="tabcontent">
+  <p align="center"> 
 <h1 style="color:#008080" align="center">Some interesting resources to learn the circle method from are:</h3>
  
  <ol>
@@ -44,6 +48,14 @@ I am interested in analytic number theory where I am advised by <a href="https:/
  </ol>
  
  </p>
+</div>
+ 
+  
+  
+ 
+
+ 
+
  
  
 </body>
