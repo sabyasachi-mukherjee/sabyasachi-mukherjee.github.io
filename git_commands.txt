@@ -1,0 +1,3 @@
+git add -all #adds all the files
+git push origin master
+git commit -m "Description of edit"
