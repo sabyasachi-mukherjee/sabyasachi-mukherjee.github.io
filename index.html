@@ -1,34 +1,95 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-<title>Sabyasachi Mukherjee</title>
+  <title>Sabyasachi Mukherjee</title>
 
-<meta charset="UTF-8">
-<meta name="description" content="Sabyasachi Mukherjee's Webpage.">
-<meta name="author" content="Sabyasachi Mukherjee">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="description" content="Sabyasachi Mukherjee's Webpage.">
+  <meta name="author" content="Sabyasachi Mukherjee">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #1f2937;
+      --accent: #008080;
+      --border: #e5e5e5;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      color: var(--accent);
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin-top: 2rem;
+      color: var(--text);
+    }
+
+    p {
+      margin: 0.75rem 0;
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    img {
+      max-width: 200px;
+      border-radius: 60%;
+    }
+  </style>
 </head>
 
+<body>
+  <div class="container">
 
-<body style="background-color:#FAFAFA;">
+    <header>
+      <h1><strong>Sabyasachi Mukherjee</strong></h1>
+    </header>
 
-<div style="max-width:800px; margin:0 auto; padding:20px;">
+    <!--
+    <div class="center">
+      <img src="/image.jpg" width="200">
+    </div>
+    -->
 
-<h1 style="color:#008080; text-align:center;">
-<strong>Sabyasachi Mukherjee</strong>
-</h1>
+    <h3 id="about-me">About me</h3>
 
-<!--
-<center>
-<img src="/image.jpg" width="200" style="border-radius:60%;">
-</center>
--->
-
-<h3 id="about-me">About me</h3>
-
-<p>Welcome to my webpage!</p>
+    <p>Welcome to my webpage!</p>
 
     <p>
         I am primarily interested in analytic number theory and automorphic forms.
@@ -45,7 +106,7 @@
         I graduated in early 2022 with an M.Sc. in Mathematics from
         Georg-August-Universität Göttingen.
         <!--My M.Sc. thesis is <a href="msc_thesis.pdf">available here</a>.
-    --> 
+    -->
     </p>
 
     <p>
@@ -53,15 +114,10 @@
         <a href="CV.pdf">here</a>. I maintain an institutional website at this link <a href="https://www.mi.uni-koeln.de/~smukherj/">here</a>.
     </p>
 
-<footer style="margin-top: 4rem; text-align: center; padding: 2.5rem 1.5rem; font-size: 0.85rem; border-top: 1px solid #eee;">
-  <p>© 2026 Sabyasachi Mukherjee · All rights reserved · No AI training</p>
-</footer>
-<!--
-Commented out
--->
+    <footer>
+      <p>© 2026 Sabyasachi Mukherjee · All rights reserved · No AI training</p>
+    </footer>
 
-</div>
-
+  </div>
 </body>
-
 </html>
