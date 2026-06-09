@@ -1,0 +1,7 @@
+# ai.txt - AI training and scraping policy
+
+User: *
+Disallow: /
+
+Name: Sabyasachi Mukherjee
+Copyright: 2026 Sabyasachi Mukherjee. All rights reserved.
